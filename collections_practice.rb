@@ -49,7 +49,7 @@ def sum_array(array)
   array.inject(0){|sum,x| sum + x }
 end
 
-def add_s(words)
+def add_s(array)
   array.select {|string| string.end_with?("s")}
   # [words].map.with_index{|word, index|word * index}
 
