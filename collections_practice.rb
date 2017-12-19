@@ -52,5 +52,5 @@ end
 def add_s(words)
   array.select {|string| string.end_with?("s")}
   # [words].map.with_index{|word, index|word * index}
-  
+
     end
