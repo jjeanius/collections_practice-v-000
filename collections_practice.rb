@@ -50,6 +50,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  [array].map.with_index{|element, index|}
-  "#{element[index]}" + "s"
+  array.map.with_index do|element, index|
+  element + "s"
  end
