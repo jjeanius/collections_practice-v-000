@@ -50,7 +50,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.select {|string| string.end_with?("s")}
+  array.select {|string| << "s"}
+    
+    #string.end_with?("s")}
   # [words].map.with_index{|word, index|word * index}
 
     end
