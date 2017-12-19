@@ -51,4 +51,5 @@ end
 
 def add_s(array)
   [array].map.with_index{|element, index|}
+  "#{element[index]}" + "s"
  end
