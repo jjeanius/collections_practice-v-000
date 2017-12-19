@@ -51,5 +51,6 @@ end
 
 def add_s(array)
   array.map.with_index do|element, index|
-  element + "s"
- end
+    element + "s"
+  end
+end
