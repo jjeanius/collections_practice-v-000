@@ -50,6 +50,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-[words].map.with_index{|word, index|}
-
-    end
+  [array].map.with_index{|element, index|}
+ end
